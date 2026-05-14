@@ -1,53 +1,55 @@
-<h1 align="center">📒 C Agenda System</h1>
+<h1 align="center">📒 Sistema de Agenda em C</h1>
 
 <p align="center">
-  A simple contact management system built in C, focused on data structures, file handling, and clean logic.
+  Sistema simples de gerenciamento de contatos desenvolvido em C, com foco em estruturas de dados,
+  manipulação de arquivos e organização lógica do código.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/language-C-blue?style=for-the-badge&logo=c">
-  <img src="https://img.shields.io/badge/status-completed-success?style=for-the-badge">
-  <img src="https://img.shields.io/badge/platform-console-lightgrey?style=for-the-badge">
-  <img src="https://img.shields.io/badge/focus-data%20structures%20%26%20files-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/linguagem-C-blue?style=for-the-badge&logo=c">
+  <img src="https://img.shields.io/badge/status-concluído-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/plataforma-console-lightgrey?style=for-the-badge">
+  <img src="https://img.shields.io/badge/foco-estruturas%20de%20dados%20%26%20arquivos-orange?style=for-the-badge">
 </p>
 
 ---
 
-<h2>🚀 About the Project</h2>
+<h2>🚀 Sobre o Projeto</h2>
 
 <p>
-The <strong>C Agenda System</strong> is a console-based application designed to manage contacts efficiently.
-This project focuses on core programming fundamentals such as <strong>structs, memory management, and file persistence</strong>,
-providing a solid foundation for low-level system development.
+O <strong>Sistema de Agenda em C</strong> é uma aplicação via terminal desenvolvida para gerenciamento de contatos.
+O projeto foca em fundamentos importantes da programação em C, como
+<strong>structs, gerenciamento de memória e persistência de dados em arquivos</strong>,
+fornecendo uma base sólida para desenvolvimento de sistemas de baixo nível.
 </p>
 
 ---
 
-<h2>🧠 Features</h2>
+<h2>🧠 Funcionalidades</h2>
 
 <ul>
-  <li>➕ Add new contacts</li>
-  <li>📋 List all contacts</li>
-  <li>✏️ Edit existing contacts</li>
-  <li>❌ Delete contacts</li>
-  <li>🔍 Search contacts</li>
-  <li>💾 Persistent data storage using files</li>
+  <li>➕ Adicionar novos contatos</li>
+  <li>📋 Listar contatos cadastrados</li>
+  <li>✏️ Editar contatos existentes</li>
+  <li>❌ Remover contatos</li>
+  <li>🔍 Buscar contatos</li>
+  <li>💾 Armazenamento persistente utilizando arquivos</li>
 </ul>
 
 ---
 
-<h2>🛠️ Tech Stack</h2>
+<h2>🛠️ Tecnologias Utilizadas</h2>
 
 <ul>
-  <li><strong>C (Core language)</strong></li>
-  <li>Standard Library (stdio, stdlib, string)</li>
-  <li>File Handling (fopen, fread, fwrite)</li>
-  <li>Structs & Data Organization</li>
+  <li><strong>C</strong></li>
+  <li>Biblioteca padrão (stdio, stdlib, string)</li>
+  <li>Manipulação de arquivos (fopen, fread, fwrite)</li>
+  <li>Structs e organização de dados</li>
 </ul>
 
 ---
 
-<h2>📂 Project Structure</h2>
+<h2>📂 Estrutura do Projeto</h2>
 
 <pre>
 c-agenda-system/
@@ -57,46 +59,46 @@ c-agenda-system/
 
 ---
 
-<h2>⚙️ Getting Started</h2>
+<h2>⚙️ Como Executar</h2>
 
 <pre>
-# Compile
+# Compilar
 gcc agenda.cpp -o agenda
 
-# Run
+# Executar
 ./agenda
 </pre>
 
 ---
 
-<h2>🎯 Learning Goals</h2>
+<h2>🎯 Objetivos de Aprendizado</h2>
 
 <p>
-This project was developed to improve skills in:
+Este projeto foi desenvolvido para aprimorar habilidades em:
 </p>
 
 <ul>
-  <li>Low-level programming logic</li>
-  <li>Data structures in C</li>
-  <li>File-based data persistence</li>
-  <li>Input validation and user interaction</li>
+  <li>Lógica de programação em baixo nível</li>
+  <li>Estruturas de dados em C</li>
+  <li>Persistência de dados utilizando arquivos</li>
+  <li>Validação de entrada e interação com o usuário</li>
 </ul>
 
 ---
 
-<h2>📌 Future Improvements</h2>
+<h2>📌 Melhorias Futuras</h2>
 
 <ul>
-  <li>Better user interface (UI/UX)</li>
-  <li>Advanced search and filtering</li>
-  <li>Sorting contacts</li>
-  <li>Migration to a graphical interface</li>
+  <li>Melhorar a interface do usuário</li>
+  <li>Adicionar filtros e buscas avançadas</li>
+  <li>Implementar ordenação de contatos</li>
+  <li>Migrar para uma interface gráfica</li>
 </ul>
 
 ---
 
-<h2>👨‍💻 Author</h2>
+<h2>👨‍💻 Autor</h2>
 
 <p align="center">
-  Developed by <strong>Daniel Augusto Silva</strong><br>
+  Desenvolvido por <strong>Daniel Augusto Silva</strong><br>
 </p>
