@@ -86,17 +86,6 @@ Este projeto foi desenvolvido para aprimorar habilidades em:
 
 ---
 
-<h2>📌 Melhorias Futuras</h2>
-
-<ul>
-  <li>Melhorar a interface do usuário</li>
-  <li>Adicionar filtros e buscas avançadas</li>
-  <li>Implementar ordenação de contatos</li>
-  <li>Migrar para uma interface gráfica</li>
-</ul>
-
----
-
 <h2>👨‍💻 Autor</h2>
 
 <p align="center">
