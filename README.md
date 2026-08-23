@@ -20,18 +20,18 @@ Aplicação de terminal para cadastrar, listar, editar, remover e buscar contato
 
 ## Como executar
 
-\`\`\`
+```
 gcc agenda.cpp -o agenda
 ./agenda
-\`\`\`
+```
 
 ## Estrutura do projeto
 
-\`\`\`
+```
 c-agenda-system/
 ├── agenda.cpp
 └── README.md
-\`\`\`
+```
 
 ## Autor
 
