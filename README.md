@@ -1,93 +1,38 @@
-<h1 align="center">📒 Sistema de Agenda em C</h1>
+# Sistema de Agenda em C
 
-<p align="center">
-  Sistema simples de gerenciamento de contatos desenvolvido em C, com foco em estruturas de dados,
-  manipulação de arquivos e organização lógica do código.
-</p>
+Aplicação de terminal para cadastrar, listar, editar, remover e buscar contatos, com persistência em arquivo. Fiz esse projeto pra praticar structs, manipulação de arquivos e organização de código em C, sem bibliotecas externas — só stdio, stdlib e string da biblioteca padrão.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/linguagem-C-blue?style=for-the-badge&logo=c">
-  <img src="https://img.shields.io/badge/status-concluído-success?style=for-the-badge">
-  <img src="https://img.shields.io/badge/plataforma-console-lightgrey?style=for-the-badge">
-  <img src="https://img.shields.io/badge/foco-estruturas%20de%20dados%20%26%20arquivos-orange?style=for-the-badge">
-</p>
+## Funcionalidades
 
----
+- Adicionar contato
+- Listar contatos cadastrados
+- Editar contato existente
+- Remover contato
+- Buscar contato
+- Armazenamento persistente em arquivo (leitura e escrita via fopen/fread/fwrite)
 
-<h2>🚀 Sobre o Projeto</h2>
+## Tecnologias
 
-<p>
-O <strong>Sistema de Agenda em C</strong> é uma aplicação via terminal desenvolvida para gerenciamento de contatos.
-O projeto foca em fundamentos importantes da programação em C, como
-<strong>structs, gerenciamento de memória e persistência de dados em arquivos</strong>,
-fornecendo uma base sólida para desenvolvimento de sistemas de baixo nível.
-</p>
+- C
+- Biblioteca padrão (stdio, stdlib, string)
+- Structs para modelar os contatos
+- Manipulação de arquivos para persistência dos dados
 
----
+## Como executar
 
-<h2>🧠 Funcionalidades</h2>
-
-<ul>
-  <li>➕ Adicionar novos contatos</li>
-  <li>📋 Listar contatos cadastrados</li>
-  <li>✏️ Editar contatos existentes</li>
-  <li>❌ Remover contatos</li>
-  <li>🔍 Buscar contatos</li>
-  <li>💾 Armazenamento persistente utilizando arquivos</li>
-</ul>
-
----
-
-<h2>🛠️ Tecnologias Utilizadas</h2>
-
-<ul>
-  <li><strong>C</strong></li>
-  <li>Biblioteca padrão (stdio, stdlib, string)</li>
-  <li>Manipulação de arquivos (fopen, fread, fwrite)</li>
-  <li>Structs e organização de dados</li>
-</ul>
-
----
-
-<h2>📂 Estrutura do Projeto</h2>
-
-<pre>
-c-agenda-system/
-│── agenda.cpp
-│── README.md
-</pre>
-
----
-
-<h2>⚙️ Como Executar</h2>
-
-<pre>
-# Compilar
+\`\`\`
 gcc agenda.cpp -o agenda
-
-# Executar
 ./agenda
-</pre>
+\`\`\`
 
----
+## Estrutura do projeto
 
-<h2>🎯 Objetivos de Aprendizado</h2>
+\`\`\`
+c-agenda-system/
+├── agenda.cpp
+└── README.md
+\`\`\`
 
-<p>
-Este projeto foi desenvolvido para aprimorar habilidades em:
-</p>
+## Autor
 
-<ul>
-  <li>Lógica de programação em baixo nível</li>
-  <li>Estruturas de dados em C</li>
-  <li>Persistência de dados utilizando arquivos</li>
-  <li>Validação de entrada e interação com o usuário</li>
-</ul>
-
----
-
-<h2>👨‍💻 Autor</h2>
-
-<p align="center">
-  Desenvolvido por <strong>Daniel Augusto Silva</strong><br>
-</p>
+Daniel Augusto Silva
